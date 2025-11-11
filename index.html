@@ -12,6 +12,9 @@
     <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Vercel Analytics -->
+    <script defer src="/_vercel/insights/script.js"></script>
     <style>
         * { -webkit-tap-highlight-color: transparent; }
         body { overflow-x: hidden; margin: 0; }
@@ -26,10 +29,10 @@
     <script type="text/babel">
         const { useState, useEffect } = React;
         const PAYPAL_LINKS = {
-            cafe: "https://www.paypal.com/ncp/payment/UYQHSHSJUT5YN",
-            pizza: "https://www.paypal.com/ncp/payment/7A9YAFWNQHVG4",
-            burger: "https://www.paypal.com/ncp/payment/XP6Q8G3WU2TJE",
-            custom: "https://www.paypal.com/ncp/payment/M2RWWU3RVN25A"
+            cafe: "https://www.paypal.com/ncp/payment/XU7TZDRVUD4LW",
+            pizza: "https://www.paypal.com/ncp/payment/CF5D5JVNTZUWY",
+            burger: "https://www.paypal.com/ncp/payment/9F9KK6RBFWTXU",
+            custom: "https://www.paypal.com/ncp/payment/2S5X2UUQZNZE2"
         };
 
         function InfinitesWinApp() {
@@ -297,4 +300,3 @@
     </script>
 </body>
 </html>
-
